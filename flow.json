@@ -1,1 +1,1242 @@
-[]
+[
+    {
+        "id": "9019e47864483395",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4f19ba8da7e1ae05",
+        "type": "tab",
+        "label": "dashboard_skripsi",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4e3c698d6efaab10",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "45465f74d07e3886",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8352ff6457d9fdd1",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "b316d86b122c961d",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8352ff6457d9fdd1",
+        "order": 9,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "700f5ccae10135c6",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8352ff6457d9fdd1",
+        "order": 10,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "727c7933a12c0d36",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8352ff6457d9fdd1",
+        "order": 11,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "6b99818a31b1b9f6",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8352ff6457d9fdd1",
+        "order": 13,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "9ffd59746be516ec",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8293a78a191dd3d7",
+        "order": 2,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "7443bd5345be5abe",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8293a78a191dd3d7",
+        "order": 3,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "a924fe84d406adb3",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8293a78a191dd3d7",
+        "order": 4,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "2b3b7d167a8c9d69",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8293a78a191dd3d7",
+        "order": 5,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "e6a4992b0f7823df",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8293a78a191dd3d7",
+        "order": 6,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "2e5d064772b3ed6b",
+        "type": "ui_group",
+        "name": "Main",
+        "tab": "8512ab359f8b1217",
+        "order": 4,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8352ff6457d9fdd1",
+        "type": "ui_group",
+        "name": "Greenhouse A",
+        "tab": "8512ab359f8b1217",
+        "order": 1,
+        "disp": true,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8293a78a191dd3d7",
+        "type": "ui_group",
+        "name": "Display Param",
+        "tab": "8512ab359f8b1217",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dd116dcad9e28d42",
+        "type": "ui_group",
+        "name": "Edit Param",
+        "tab": "8512ab359f8b1217",
+        "order": 3,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8512ab359f8b1217",
+        "type": "ui_tab",
+        "name": "Greenhouse",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a62ecc25d2385323",
+        "type": "ui_button",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "group": "2e5d064772b3ed6b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Greenhouse A",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"Greenhouse_Main\"],\"show\":[\"Greenhouse_Greenhouse_A\"]}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 40,
+        "wires": [
+            [
+                "50bcf5ca4ba41ff5"
+            ]
+        ]
+    },
+    {
+        "id": "bfe2a87c31c68c87",
+        "type": "ui_button",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "group": "2e5d064772b3ed6b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Greenhouse B",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "3d6dcc318c6948f3"
+            ]
+        ]
+    },
+    {
+        "id": "dc7e8503195c4c73",
+        "type": "ui_button",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "group": "2e5d064772b3ed6b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Greenhouse C",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 160,
+        "wires": [
+            [
+                "c96b0153f9f80ed1"
+            ]
+        ]
+    },
+    {
+        "id": "792243bad594d3e7",
+        "type": "mqtt in",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "topic": "greenhouseA/skripsi/temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "4e3c698d6efaab10",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 260,
+        "wires": [
+            [
+                "7099cfd2b38f3517",
+                "5d3b4e8281a06233"
+            ]
+        ]
+    },
+    {
+        "id": "7099cfd2b38f3517",
+        "type": "ui_text",
+        "z": "4f19ba8da7e1ae05",
+        "group": "8352ff6457d9fdd1",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Temp In",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 400,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "d1c83a7a73ed9b11",
+        "type": "mqtt in",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "topic": "greenhouseA/skripsi/hum",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "4e3c698d6efaab10",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 380,
+        "wires": [
+            [
+                "a5ff522f75c584e3",
+                "8d24e1922654bda6"
+            ]
+        ]
+    },
+    {
+        "id": "a5ff522f75c584e3",
+        "type": "ui_text",
+        "z": "4f19ba8da7e1ae05",
+        "group": "8352ff6457d9fdd1",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Hum In",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 400,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "5d3b4e8281a06233",
+        "type": "ui_chart",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "group": "8352ff6457d9fdd1",
+        "order": 5,
+        "width": 6,
+        "height": 4,
+        "label": "Temp In",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 400,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d24e1922654bda6",
+        "type": "ui_chart",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "group": "8352ff6457d9fdd1",
+        "order": 6,
+        "width": 6,
+        "height": 4,
+        "label": "Hum In",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 400,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "708e296674fe7997",
+        "type": "ui_button",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "group": "8352ff6457d9fdd1",
+        "order": 15,
+        "width": 12,
+        "height": 1,
+        "passthru": false,
+        "label": "Back to main menu",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"Greenhouse_Greenhouse_A\"],\"show\":[\"Greenhouse_Main\"]}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 500,
+        "wires": [
+            [
+                "ebd2d6f19d858103"
+            ]
+        ]
+    },
+    {
+        "id": "50bcf5ca4ba41ff5",
+        "type": "ui_ui_control",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "events": "all",
+        "x": 420,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3d6dcc318c6948f3",
+        "type": "ui_ui_control",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "events": "all",
+        "x": 420,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c96b0153f9f80ed1",
+        "type": "ui_ui_control",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "events": "all",
+        "x": 420,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ebd2d6f19d858103",
+        "type": "ui_ui_control",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "events": "all",
+        "x": 360,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "34235b089b9e33ca",
+        "type": "mqtt in",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "topic": "greenhouseA/skripsi/ldr",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "4e3c698d6efaab10",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 600,
+        "wires": [
+            [
+                "e552acea45b067d2"
+            ]
+        ]
+    },
+    {
+        "id": "1a80b463979c6a63",
+        "type": "mqtt in",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "topic": "greenhouseA/skripsi/soil",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "4e3c698d6efaab10",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 680,
+        "wires": [
+            [
+                "c3ed478351cb3174"
+            ]
+        ]
+    },
+    {
+        "id": "e552acea45b067d2",
+        "type": "ui_text",
+        "z": "4f19ba8da7e1ae05",
+        "group": "8352ff6457d9fdd1",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "LDR ",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 390,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "c3ed478351cb3174",
+        "type": "ui_text",
+        "z": "4f19ba8da7e1ae05",
+        "group": "8352ff6457d9fdd1",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Soil Moisture",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 390,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "b2b9f06c10f136ea",
+        "type": "ui_switch",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "label": "Pompa",
+        "tooltip": "",
+        "group": "8352ff6457d9fdd1",
+        "order": 12,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 300,
+        "y": 780,
+        "wires": [
+            [
+                "09a6e27f62680e6b",
+                "4a6dd01ef99a4ffa"
+            ]
+        ]
+    },
+    {
+        "id": "09a6e27f62680e6b",
+        "type": "mqtt out",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "topic": "greenhouseA/skripsi/relayState",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "4e3c698d6efaab10",
+        "x": 550,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "4a6dd01ef99a4ffa",
+        "type": "function",
+        "z": "4f19ba8da7e1ae05",
+        "name": "function 1",
+        "func": "m = msg.payload;\nt = msg.topic;\nif (m == \"on\") {\n    return { topic: t, payload: 'Hidup' };\n}\nelse if (m == \"off\") {\n    return { topic: t, payload: 'Mati' }\n}",
+        "outputs": 1,
+        "noerr": 4,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 860,
+        "wires": [
+            [
+                "b034d82a1622be8a"
+            ]
+        ]
+    },
+    {
+        "id": "b034d82a1622be8a",
+        "type": "ui_text",
+        "z": "4f19ba8da7e1ae05",
+        "group": "8352ff6457d9fdd1",
+        "order": 14,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 670,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "7191c2297029361d",
+        "type": "mqtt in",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "topic": "greenhouseA/skripsi/relayStateFlag",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "4e3c698d6efaab10",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 1000,
+        "wires": [
+            [
+                "9609ab4eebb87c42"
+            ]
+        ]
+    },
+    {
+        "id": "9609ab4eebb87c42",
+        "type": "function",
+        "z": "4f19ba8da7e1ae05",
+        "name": "function 3",
+        "func": "m = msg.payload;\nt = msg.topic;\nif (m == \"off\") {\n    return { topic: t, payload: \"off\" };\n}\n",
+        "outputs": 1,
+        "noerr": 3,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 880,
+        "wires": [
+            [
+                "b2b9f06c10f136ea"
+            ]
+        ]
+    },
+    {
+        "id": "9917ee36f1ac2a51",
+        "type": "inject",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "off",
+        "payloadType": "str",
+        "x": 90,
+        "y": 820,
+        "wires": [
+            [
+                "9609ab4eebb87c42"
+            ]
+        ]
+    },
+    {
+        "id": "c477f84430bd83d4",
+        "type": "ui_button",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "group": "8293a78a191dd3d7",
+        "order": 7,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "Edit Parameter",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"Greenhouse_Display_Param\"],\"show\":[\"Greenhouse_Edit_Param\"]}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 680,
+        "y": 180,
+        "wires": [
+            [
+                "8d7c1bfbd5bf628e",
+                "297cc26c509df7a0"
+            ]
+        ]
+    },
+    {
+        "id": "6fa58c02aaa5c4ba",
+        "type": "ui_gauge",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "group": "8352ff6457d9fdd1",
+        "order": 7,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "pH",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "14",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 370,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "42048c4df8d7ff17",
+        "type": "mqtt in",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "topic": "greenhouseA/skripsi/ph",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "4e3c698d6efaab10",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 1100,
+        "wires": [
+            [
+                "6fa58c02aaa5c4ba"
+            ]
+        ]
+    },
+    {
+        "id": "8d7c1bfbd5bf628e",
+        "type": "http request",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://localhost:3000/PlantParam",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 870,
+        "y": 140,
+        "wires": [
+            [
+                "aa00b4ef57ceced6"
+            ]
+        ]
+    },
+    {
+        "id": "652b505cfb1e3005",
+        "type": "ui_button",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "group": "dd116dcad9e28d42",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Back",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "dsa",
+        "payload": "{\"group\":{\"hide\":[\"Greenhouse_Edit_Param\"],\"show\":[\"Greenhouse_Display_Param\"]}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 670,
+        "y": 280,
+        "wires": [
+            [
+                "7e5b3341c3332e52"
+            ]
+        ]
+    },
+    {
+        "id": "91d9ca208b66be87",
+        "type": "ui_button",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "group": "dd116dcad9e28d42",
+        "order": 3,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "Save Parameter",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "mi-videogame_asset",
+        "payload": "save",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1060,
+        "y": 340,
+        "wires": [
+            [
+                "4f6030654acc2b15"
+            ]
+        ]
+    },
+    {
+        "id": "297cc26c509df7a0",
+        "type": "ui_ui_control",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "events": "all",
+        "x": 860,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7e5b3341c3332e52",
+        "type": "ui_ui_control",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "events": "all",
+        "x": 820,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aa00b4ef57ceced6",
+        "type": "function",
+        "z": "4f19ba8da7e1ae05",
+        "name": "function 5",
+        "func": "let arr = msg.payload\nlet arrJs = [];\n\n\nfor (let i = 0; i < arr.length; i++) {\n    let tempJs = {};\n    tempJs[arr[i].name] = arr[i];\n    arrJs[i] = tempJs;\n}\n\nmsg.payload = 1;\nmsg.options = arrJs;\n\nreturn msg\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 140,
+        "wires": [
+            [
+                "7e21d24c89fbf20c",
+                "589503a873910777"
+            ]
+        ]
+    },
+    {
+        "id": "7e21d24c89fbf20c",
+        "type": "debug",
+        "z": "4f19ba8da7e1ae05",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "589503a873910777",
+        "type": "ui_dropdown",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "label": "Jenis Tanaman",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "dd116dcad9e28d42",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 1060,
+        "y": 280,
+        "wires": [
+            [
+                "7379555e576266d5",
+                "d7b2cb05647422f0"
+            ]
+        ]
+    },
+    {
+        "id": "250f19b1102dc6ef",
+        "type": "function",
+        "z": "4f19ba8da7e1ae05",
+        "name": "function 6",
+        "func": "context.data = context.data || {};\n\nswitch (msg.topic) {\n    case \"task1\":\n        context.data.task1 = msg.payload;\n        msg = null;\n        break\n    case \"task2\":\n        context.data.task2 = msg.payload;\n        msg = null;\n        break\n    default:\n        msg = null;\n        break\n}\n\nif (context.data.task1 != null && context.data.task2 == \"save\") {\n    var ratio = context.data.task1;\n    context.data = null;\n    return { payload: ratio }\n} else return msg\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1480,
+        "y": 340,
+        "wires": [
+            [
+                "c49d0f4cd68472df",
+                "6aba122530cb30a4",
+                "d7c4d43233687dd4"
+            ]
+        ]
+    },
+    {
+        "id": "0eb2451c6dabef58",
+        "type": "ui_list",
+        "z": "4f19ba8da7e1ae05",
+        "group": "dd116dcad9e28d42",
+        "name": "",
+        "order": 2,
+        "width": 8,
+        "height": 9,
+        "lineType": "two",
+        "actionType": "none",
+        "allowHTML": false,
+        "outputs": 0,
+        "topic": "",
+        "x": 1450,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "d7b2cb05647422f0",
+        "type": "function",
+        "z": "4f19ba8da7e1ae05",
+        "name": "function 7",
+        "func": "let arr =  msg.payload;\nlet listVal = [{}];\nconst key = Object.keys(arr);\n\n\nfor (let i = 1; i < key.length; i++) {\n    listVal[i-1] = { \"title\": key[i], \"description\" : arr[key[i]]};\n}\n\nmsg.payload = listVal;\n\nreturn msg\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1280,
+        "y": 420,
+        "wires": [
+            [
+                "0eb2451c6dabef58",
+                "336553e72744b523"
+            ]
+        ]
+    },
+    {
+        "id": "4f6030654acc2b15",
+        "type": "function",
+        "z": "4f19ba8da7e1ae05",
+        "name": "function 8",
+        "func": "var arr = msg.payload;\n\nmsg.payload = arr;\nmsg.topic = \"task2\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1280,
+        "y": 360,
+        "wires": [
+            [
+                "250f19b1102dc6ef"
+            ]
+        ]
+    },
+    {
+        "id": "336553e72744b523",
+        "type": "debug",
+        "z": "4f19ba8da7e1ae05",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1440,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "7379555e576266d5",
+        "type": "function",
+        "z": "4f19ba8da7e1ae05",
+        "name": "function 9",
+        "func": "var arr = msg.payload;\n\nmsg.payload = arr;\nmsg.topic = \"task1\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1280,
+        "y": 300,
+        "wires": [
+            [
+                "250f19b1102dc6ef",
+                "686cae5a7179364f"
+            ]
+        ]
+    },
+    {
+        "id": "c49d0f4cd68472df",
+        "type": "ui_toast",
+        "z": "4f19ba8da7e1ae05",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1710,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "f418b04285445189",
+        "type": "ui_list",
+        "z": "4f19ba8da7e1ae05",
+        "group": "8293a78a191dd3d7",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "lineType": "two",
+        "actionType": "none",
+        "allowHTML": false,
+        "outputs": 0,
+        "topic": "",
+        "x": 1870,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "686cae5a7179364f",
+        "type": "debug",
+        "z": "4f19ba8da7e1ae05",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1440,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "6aba122530cb30a4",
+        "type": "debug",
+        "z": "4f19ba8da7e1ae05",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1660,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "d7c4d43233687dd4",
+        "type": "function",
+        "z": "4f19ba8da7e1ae05",
+        "name": "function 10",
+        "func": "let arr =  msg.payload;\nlet listVal = [{}];\nconst key = Object.keys(arr);\n\n\nfor (let i = 1; i < key.length; i++) {\n    listVal[i-1] = { \"title\": key[i], \"description\" : arr[key[i]]};\n}\n\nmsg.payload = listVal;\n\nreturn msg\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1690,
+        "y": 340,
+        "wires": [
+            [
+                "f418b04285445189"
+            ]
+        ]
+    },
+    {
+        "id": "640f6323c17918d6",
+        "type": "inject",
+        "z": "4f19ba8da7e1ae05",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "6.5",
+        "payloadType": "num",
+        "x": 190,
+        "y": 1200,
+        "wires": [
+            [
+                "6fa58c02aaa5c4ba"
+            ]
+        ]
+    }
+]
