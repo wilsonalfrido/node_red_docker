@@ -87,106 +87,6 @@
         "className": ""
     },
     {
-        "id": "45465f74d07e3886",
-        "type": "ui_spacer",
-        "z": "4f19ba8da7e1ae05",
-        "name": "spacer",
-        "group": "8352ff6457d9fdd1",
-        "order": 8,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "b316d86b122c961d",
-        "type": "ui_spacer",
-        "z": "4f19ba8da7e1ae05",
-        "name": "spacer",
-        "group": "8352ff6457d9fdd1",
-        "order": 9,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "700f5ccae10135c6",
-        "type": "ui_spacer",
-        "z": "4f19ba8da7e1ae05",
-        "name": "spacer",
-        "group": "8352ff6457d9fdd1",
-        "order": 10,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "727c7933a12c0d36",
-        "type": "ui_spacer",
-        "z": "4f19ba8da7e1ae05",
-        "name": "spacer",
-        "group": "8352ff6457d9fdd1",
-        "order": 11,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "6b99818a31b1b9f6",
-        "type": "ui_spacer",
-        "z": "4f19ba8da7e1ae05",
-        "name": "spacer",
-        "group": "8352ff6457d9fdd1",
-        "order": 13,
-        "width": 7,
-        "height": 1
-    },
-    {
-        "id": "9ffd59746be516ec",
-        "type": "ui_spacer",
-        "z": "4f19ba8da7e1ae05",
-        "name": "spacer",
-        "group": "8293a78a191dd3d7",
-        "order": 2,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "7443bd5345be5abe",
-        "type": "ui_spacer",
-        "z": "4f19ba8da7e1ae05",
-        "name": "spacer",
-        "group": "8293a78a191dd3d7",
-        "order": 3,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "a924fe84d406adb3",
-        "type": "ui_spacer",
-        "z": "4f19ba8da7e1ae05",
-        "name": "spacer",
-        "group": "8293a78a191dd3d7",
-        "order": 4,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "2b3b7d167a8c9d69",
-        "type": "ui_spacer",
-        "z": "4f19ba8da7e1ae05",
-        "name": "spacer",
-        "group": "8293a78a191dd3d7",
-        "order": 5,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "e6a4992b0f7823df",
-        "type": "ui_spacer",
-        "z": "4f19ba8da7e1ae05",
-        "name": "spacer",
-        "group": "8293a78a191dd3d7",
-        "order": 6,
-        "width": 8,
-        "height": 1
-    },
-    {
         "id": "51855c210410ae61",
         "type": "ui_base",
         "theme": {
@@ -195,7 +95,8 @@
                 "default": "#0094CE",
                 "baseColor": "#0094CE",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
+                "edited": true,
+                "reset": false
             },
             "darkTheme": {
                 "default": "#097479",
@@ -281,6 +182,106 @@
                 "py": 0
             }
         }
+    },
+    {
+        "id": "6d68136e3d585d59",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8352ff6457d9fdd1",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "f74b1e5c9269ea39",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8352ff6457d9fdd1",
+        "order": 9,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "1daaff3693038623",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8352ff6457d9fdd1",
+        "order": 10,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "27a7af6424806174",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8352ff6457d9fdd1",
+        "order": 11,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "74c5382257e0df5d",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8352ff6457d9fdd1",
+        "order": 13,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "3c9cb95a11aa2662",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8293a78a191dd3d7",
+        "order": 2,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "c4a0a905dadbbb5e",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8293a78a191dd3d7",
+        "order": 3,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "5bde703958842ed1",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8293a78a191dd3d7",
+        "order": 4,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "ba4a37b5a66ad834",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8293a78a191dd3d7",
+        "order": 5,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "277edccd35ed8e32",
+        "type": "ui_spacer",
+        "z": "4f19ba8da7e1ae05",
+        "name": "spacer",
+        "group": "8293a78a191dd3d7",
+        "order": 6,
+        "width": 8,
+        "height": 1
     },
     {
         "id": "792243bad594d3e7",
@@ -1326,5 +1327,28 @@
         "x": 1870,
         "y": 340,
         "wires": []
+    },
+    {
+        "id": "75a5207e17115106",
+        "type": "ui_media",
+        "z": "4f19ba8da7e1ae05",
+        "group": "8293a78a191dd3d7",
+        "name": "",
+        "width": 0,
+        "height": 0,
+        "order": 8,
+        "category": "",
+        "file": "",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 1290,
+        "y": 600,
+        "wires": [
+            []
+        ]
     }
 ]
