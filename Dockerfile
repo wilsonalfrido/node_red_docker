@@ -31,7 +31,7 @@ USER 1000
 COPY ./server.js /data/
 COPY ./settings.js /data/
 COPY ./flow.json /data/
-COPY ./flows_cred.json /data/
+COPY ./flow_cred.json /data/
 COPY ./package.json /data/
 COPY --from=build /data/node_modules /data/node_modules
 
