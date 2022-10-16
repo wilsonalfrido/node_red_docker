@@ -5,10 +5,10 @@
     "dependencies": {
         "@cloudnative/health-connect": "^2.0.0",
         "express": "4.17.1",
-        "node-red": "^1.0.0",
-        "node-red-dashboard" : "^2.16.3",
+        "node-red": "3.0.2",
         "node-red-dashboard": "3.2.0",
-        "node-red-node-ui-list": "0.3.6"
+        "node-red-node-ui-list": "0.3.6",
+        "node-red-contrib-ui-media": "1.2.0"
     },
     "devDependencies": {
         "chai": "^4.2.0",
